@@ -1,0 +1,138 @@
+.mar {
+    margin-left: 320px;
+  }
+  .akl a {
+    color: white;
+    font-size: 23px;
+    padding: 2px;
+  }
+  .akl a:hover {
+    color: white;
+  }
+  .nav-link:focus {
+    color: white;
+  }
+  
+  .imgs {
+    height: 100%;
+    width: 100%;
+  }
+  .bor {
+    /* / border: 2px solid rebeccapurple; / */
+  }
+  /* .parent {
+    height: 186px;
+    width: 300px;
+    / border: 2px solid red; /
+  /* display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+  }
+  .child1 {
+    height: 100%;
+    width: 50%;
+    / border: 2px solid purple; /
+  /* }
+  .child1 img {
+    height: 100%;
+    width: 100%;
+  }
+  .child2 {
+    height: 100%;
+    width: 45%;
+    background-color: white; */
+  
+  /* / border: 2px solid purple; / */
+  /* / } / */
+  .top-buffer {
+    /* margin-right: 10px; */
+  }
+  .cont {
+    color: white;
+  }
+  .parent p {
+    margin-bottom: 0px;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  }
+  @media screen and (max-width: 1200px) and (min-width: 0px) {
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .mar {
+      margin-left: 0px;
+    }
+    .akl a {
+      color: rgb(254, 253, 255);
+      font-size: 23px;
+      padding: 0px;
+    }
+    .timg {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .parent {
+      /* height: 250px; */
+      width: 219px;
+    }
+    p{
+        font-size: 10px;
+    }
+    h6{
+        font-size: 10px;
+    }
+    .child2 button{
+        font-size: 10px;
+    }
+  }
+  
+  input .error {
+    border-color: red;
+  }
+  
+  .car {
+    color: red;
+  }
+  
+  .carttab {
+    border: 2px solid red;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .anc {
+    text-decoration: none;
+    color: white;
+  }
+  .tag {
+    /* / background-color: blue; / */
+    height: 37px;
+    width: 98px;
+    border-radius: 12px;
+  }
+  @media screen and (max-width: 2000px) and (min-width: 1200px) {
+
+    .prot p{
+        font-size: 13px;
+    }
+    .prot h6{
+        font-size: 13px;
+    }
+    .prot button{
+        font-size: 13px;
+    }
+  }
